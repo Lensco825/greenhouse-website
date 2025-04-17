@@ -118,7 +118,7 @@ nav a:hover {
 .plantGrid {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     position: relative;
     top: 80px;
     row-gap: 50px;
@@ -165,12 +165,35 @@ nav a:hover {
     margin: 0;
 }
 
-.plant .plantImg:nth-child(2) {
+.plant:nth-child(1) .plantImg {
     background-image: url("/images/capellaCoralPetunia.jpg");
 }
 
+.plant:nth-child(2) .plantImg {
+    background-image: url("/images/yellowCalibrachoa.jpg");
+}
 
 
+.plant:nth-child(3) .plantImg {
+    background-image: url("/images/neonPinkCalibrochoa.jpg");
+}
+
+.plant:nth-child(4) .plantImg {
+    background-image: url("/images/calibrachoaWhite.jpg");
+}
+
+.plant:nth-child(5) .plantImg {
+    background-image: url("/images/colues.jfif");
+}
+.plant:nth-child(6) .plantImg {
+    background-image: url("/images/cuphea_hummingbirds_lunch.webp");
+}
+.plant:nth-child(7) .plantImg {
+    background-image: url("/images/Amore-Heart-and-Soul-Danziger-1.jpg");
+}
+.plant:nth-child(8) .plantImg {
+    background-image: url("/images/Fuchsia-Blue-Eyes-Web-4.jpg");
+}
 
 
 
