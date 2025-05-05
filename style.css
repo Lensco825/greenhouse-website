@@ -220,7 +220,15 @@ nav a:hover {
     background-image: url("/images/Fuchsia-Blue-Eyes-Web-4.jpg");
 }
 
-
+.masonryProduct {
+    background-color: #f1f1f1;
+    font-family: Merriweather;
+    margin: 25px 10px 50px 50px;
+    border-radius:3%;
+    width:30%;
+    height:30%;
+    padding: 2%
+}
 
 
 
