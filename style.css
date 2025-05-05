@@ -94,22 +94,6 @@ nav a:hover {
     color: green;
 }
 
-@media (max-width: 600px) {
-    nav p {
-        display: none;
-    }
-
-    nav {
-        font-size: 0.9rem;
-    }
-    .info  {
-        width: 400px;
-        padding: 0;
-        text-align: center;
-        margin: 0;
-        background-color: red;
-    }
-}
 
 .info {
     background-color: #283618;
@@ -121,6 +105,29 @@ nav a:hover {
     font-family: Merriweather;
     color: white;
     width: 500px;
+}
+
+@media (max-width: 600px) {
+    .logo p {
+        display: none;
+    }
+
+    nav {
+        font-size: 0.9rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info  {
+        width: 400px;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        margin-right: 34px;
+    }
 }
 
 .info button {
