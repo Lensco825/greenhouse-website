@@ -13,6 +13,7 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: var(--cornsilk);
 }
 
 nav {
@@ -93,6 +94,7 @@ nav a:hover {
     color: green;
 }
 
+
 .info {
     background-color: #283618;
     border-radius: 20px;
@@ -103,6 +105,29 @@ nav a:hover {
     font-family: Merriweather;
     color: white;
     width: 500px;
+}
+
+@media (max-width: 600px) {
+    .logo p {
+        display: none;
+    }
+
+    nav {
+        font-size: 0.9rem;
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info  {
+        width: 400px;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        margin-right: 34px;
+    }
 }
 
 .info button {
