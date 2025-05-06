@@ -23,7 +23,6 @@ html, body {
     top: 80px;
     row-gap: 10px;
     place-items: center;
-    background-color: red;
     padding: 10px 0 120px 0;
     overflow: hidden;
 }
@@ -106,3 +105,6 @@ html, body {
     background-image: url("/images/Fuchsia-Blue-Eyes-Web-4.jpg");
 }
 
+footer {
+    position: relative;
+}
