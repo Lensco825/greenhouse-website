@@ -16,6 +16,53 @@ html, body {
     background-color: var(--cornsilk);
 }
 
+nav {
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    top: 0;
+    backdrop-filter: blur;
+    background: rgba( 255, 255, 255, 0.6 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+} 
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+ nav .logo img {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pages {
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+    
+.logo img {
+    width: 100px;
+}
 
 .heroSection {
     width: 100%;
@@ -98,6 +145,119 @@ nav a:hover {
     color: #283618;
 }
 
+/* .plantsSection {
+    background-color: var(--cornsilk);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+} */
+
+.plantGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    position: relative;
+    top: 80px;
+    row-gap: 10px;
+    place-items: center;
+    background-color: red;
+    padding: 10px 0 120px 0;
+    overflow: hidden;
+}
+
+.plant {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.plant:hover {
+    background-color: var(--earth-yellow);
+}
+
+.plantImg {
+    background-color: var(--pakistan-green);
+    height: 400px;
+
+}
+
+.plantName {
+    font-size: 1.2rem;
+    color: var(--pakistan-green);
+    font-weight: bold;
+}
+
+.plantImg {
+    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-size: cover ;
+}
+
+.plant {
+    font-family: Merriweather;
+}
+
+.plantInfo {
+    font-style: italic;
+}
+
+.plantImg, .plantInfo, .plantName {
+    width: 250px;
+}
+
+.plantInfo, .plantName {
+    margin: 0;
+}
+
+.plant:nth-child(1) .plantImg {
+    background-image: url("/images/capellaCoralPetunia.jpg");
+}
+
+.plant:nth-child(2) .plantImg {
+    background-image: url("/images/yellowCalibrachoa.jpg");
+}
+
+
+.plant:nth-child(3) .plantImg {
+    background-image: url("/images/neonPinkCalibrochoa.jpg");
+}
+
+.plant:nth-child(4) .plantImg {
+    background-image: url("/images/calibrachoaWhite.jpg");
+}
+
+.plant:nth-child(5) .plantImg {
+    background-image: url("/images/colues.jfif");
+}
+.plant:nth-child(6) .plantImg {
+    background-image: url("/images/cuphea_hummingbirds_lunch.webp");
+}
+.plant:nth-child(7) .plantImg {
+    background-image: url("/images/Amore-Heart-and-Soul-Danziger-1.jpg");
+}
+.plant:nth-child(8) .plantImg {
+    background-image: url("/images/Fuchsia-Blue-Eyes-Web-4.jpg");
+}
+
+
+footer {
+    background-color: #2F2D2D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Merriweather;
+    margin: 25px 10px 50px 50px;
+    border-radius:15px;
+    width:60%;
+    height:30%;
+    padding: 2%;
+}
 
 .masonryImageContainer {
     background-color: #d7d7d7;
@@ -106,11 +266,16 @@ nav a:hover {
     border-radius:15px;
     float:left;
     aspect-ratio: 1;
+    justify-content: center;
+    align-items:center;
+    align-self:center;
+    
 }
 .masonryImage {
+    display:flex;
     object-fit:cover;
     width: 95%;
-    padding: 5% 5% 5%;
+    height:95%;
     line-height:100%;
     border-radius: 25px;
 }
@@ -124,6 +289,81 @@ h1 {
     text-align: center;
 }
 
+.masonryProduct {
+    background-color: #f1f1f1;
+    display:flex;
+    width:45%;
+    height:200px;
+    border-radius: 15px;
+    box-shadow: #283618;
+    margin-top:5px;
+    padding:0px 5px;
+    
+}
+
+.text {
+    display: flex;
+    width:80%;
+    float:right;
+    text-wrap:wrap;
+    word-break:break-all;
+    padding:5px 15px;
+    
+}
+
+.MTLogo img {
+    width: 180px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer li:not(li:nth-child(1)) {
+    cursor: pointer;
+}
+
+footer li:hover:not(li:nth-child(1)) {
+    color: var(--cornsilk);
+}
+
+@media (max-width: 800px) {
+    
+    footer {
+        font-size: 0.8rem;
+    }
+
+    footer ul li:nth-child(1) {
+        font-size: 1.2rem;
+    }
+
+    .MTLogo img {
+        width: 120px;
+        /* hello */
+    }
+}
+
+@media (max-width: 800px) {
+    
+    footer {
+        font-size: 0.6rem;
+        height: 120px;
+    }
+
+    footer ul li:nth-child(1) {
+        font-size: 0.8rem;
+    }
+
+    .MTLogo img {
+        width: 80px;
+    }
+}
 
 
 
