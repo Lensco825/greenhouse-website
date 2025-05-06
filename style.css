@@ -262,16 +262,17 @@ footer {
 .masonryImageContainer {
     background-color: #d7d7d7;
     display:flex;
-    width:50%;
-    height:100%;
-    border-radius:50px;
+    height:90%;
+    border-radius:15px;
+    float:left;
+    aspect-ratio: 1;
 }
 .masonryImage {
     object-fit:cover;
-    width: 90%;
+    width: 95%;
     padding: 5% 5% 5%;
     line-height:100%;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 
@@ -283,8 +284,21 @@ h1 {
     text-align: center;
 }
 
-    height: 220px;
-    position: relative;
+.masonryProduct {
+    background-color: #f1f1f1;
+    display:flex;
+    padding:5px 5px;
+    width:30%;
+    height:15%;
+    border-radius: 15px;
+    
+}
+
+.text {
+    display: flex;
+    width:50%;
+    float:right;
+    text-wrap:wrap;
 }
 
 .MTLogo img {
