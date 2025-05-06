@@ -15,6 +15,8 @@ html, body {
     background-color: var(--cornsilk);
 }
 
+
+
 .plantGrid {
     width: 100%;
     display: grid;
@@ -107,4 +109,51 @@ html, body {
 
 footer {
     position: relative;
+}
+
+.extraPlantInfo {
+    position: fixed;
+    z-index: 5;
+    width: 80%;
+    max-width: 900px;
+    left: 10%;
+    top: 35%;
+    gap: 30px;
+    background-color: var(--pakistan-green);
+    display: flex;
+    font-family: Merriweather;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    display: none;
+}
+
+.info {
+    width: 60%;
+}
+
+.info h2 {
+    font-style: italic;
+}
+
+.plantPortrait {
+    width: 200px;
+    height: 350px;
+    background-image: url("https://younghollywood.com/images/stories/beabadoobee.webp");
+    background-size: cover;
+}
+
+@media (max-width: 650px) {
+    .extraPlantInfo {
+        font-size: 0.8rem;
+        width: 300px;
+        text-align: center;
+        left: 30%;
+        top: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info {
+        width: 100%;
+    }
 }
