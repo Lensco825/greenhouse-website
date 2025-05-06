@@ -32,7 +32,7 @@ nav {
     background: rgba( 255, 255, 255, 0.6 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-}
+} 
 
 .logo {
     display: flex;
@@ -145,19 +145,13 @@ nav a:hover {
     color: #283618;
 }
 
-.plantsSection {
+/* .plantsSection {
     background-color: var(--cornsilk);
     height: 100%;
     width: 100%;
     text-align: center;
-}
-
-.plantsSection h1 {
-    position: relative;
-    top: 60px;
-    font-family: Merriweather;
-    font-size: 3.5rem;
-}
+    background-color: blue;
+} */
 
 .plantGrid {
     width: 100%;
@@ -165,8 +159,11 @@ nav a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     position: relative;
     top: 80px;
-    row-gap: 50px;
+    row-gap: 10px;
     place-items: center;
+    background-color: red;
+    padding: 10px 0 120px 0;
+    overflow: hidden;
 }
 
 .plant {
@@ -192,6 +189,8 @@ nav a:hover {
 
 .plantName {
     font-size: 1.2rem;
+    color: var(--pakistan-green);
+    font-weight: bold;
 }
 
 .plantImg {
@@ -254,6 +253,7 @@ footer {
     justify-content: space-evenly;
     font-family: Merriweather;
     height: 220px;
+    position: relative;
 }
 
 .MTLogo img {
@@ -274,6 +274,10 @@ footer li:not(li:nth-child(1)) {
     cursor: pointer;
 }
 
+footer li:hover:not(li:nth-child(1)) {
+    color: var(--cornsilk);
+}
+
 @media (max-width: 800px) {
     
     footer {
@@ -287,6 +291,22 @@ footer li:not(li:nth-child(1)) {
     .MTLogo img {
         width: 120px;
         /* hello */
+    }
+}
+
+@media (max-width: 800px) {
+    
+    footer {
+        font-size: 0.6rem;
+        height: 120px;
+    }
+
+    footer ul li:nth-child(1) {
+        font-size: 0.8rem;
+    }
+
+    .MTLogo img {
+        width: 80px;
     }
 }
 
