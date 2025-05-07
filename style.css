@@ -230,7 +230,7 @@ a {
 }
 
 .plant:nth-child(1) .plantImg {
-    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-image: url("images/capellaCoralPetunia.jpg");
 }
 
 
