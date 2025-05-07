@@ -230,11 +230,8 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: Merriweather;
-    margin: 25px 10px 50px 50px;
-    border-radius:15px;
-    width:60%;
+    
     height:30%;
-    padding: 2%;
 }
 
 .masonryImageContainer {
@@ -286,6 +283,9 @@ h1 {
     text-wrap:wrap;
     word-break:break-all;
     padding:5px 15px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: 5px;
     
 }
 
