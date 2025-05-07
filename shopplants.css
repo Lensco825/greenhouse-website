@@ -135,7 +135,7 @@ html, body {
 }
 
 .plant:nth-child(5) .plantImg {
-    background-image: url("/images/colues.jfif");
+    background-image: url("https://media.discordapp.net/attachments/1346506354629677169/1369687907765452850/IMG_5893.jpg?ex=681cc4c4&is=681b7344&hm=8e7cb4fa2472c08a2eea3f35c053c60f307e00f0f4daa26cc0298e3ffb113b6a&=&format=webp&width=1129&height=847");
 }
 .plant:nth-child(6) .plantImg {
     background-image: url("/images/cuphea.jpg");
@@ -154,6 +154,11 @@ Connect With Us
 .plant:nth-child(10) .plantImg {
     background-image: url("/images/bamboo.jpg");
 }
+
+.plant:nth-child(11) .plantImg {
+    background-image: url("/images/sufinaYellowAndPurple.jpg");
+}
+
 
 
 footer {
