@@ -190,9 +190,7 @@ a {
     background-image: url("/images/capellaCoralPetunia.jpg");
 }
 
-.plant:nth-child(1):hover .plantImg {
-    background-image: url("/images/closeUpCapellaCoralPetunia.jpg");
-}
+
 
 .plant:nth-child(2) .plantImg {
     background-image: url("/images/yellowAndPurpleCalibroca.jpg");
@@ -211,7 +209,7 @@ a {
     background-image: url("/images/colues.jfif");
 }
 .plant:nth-child(6) .plantImg {
-    background-image: url("/images/cuphea.jpg");
+    background-image: url("images/cuphea.jpg");
 }
 .plant:nth-child(7) .plantImg {
     background-image: url("/images/amore.jpg");
