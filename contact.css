@@ -12,6 +12,7 @@ main {
     color: white;
     font-family: Merriweather;
     height: 100%;
+    flex-wrap: wrap-reverse;
 }
 
 .contact a {
