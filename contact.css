@@ -14,9 +14,9 @@ main {
     height: 100%;
 }
 
-/* .contact {
-    
-} */
+.contact a {
+    color: white;
+}
 
 .image {
     width: 250px;
@@ -24,7 +24,45 @@ main {
     background-color: red;
     background-image: url("images/whiteFlower.jpg");
     background-size: cover;
+    animation: moveUp 0.4s ease-out;
 }
 
-/*Reminder: Make sure each contact is a link!*/
+.contactInfo h1 {
+    animation: moveUp 0.4s ease-out;
+}
 
+.contact:nth-child(1) {
+    animation: moveUp 0.4s ease-out;
+}
+.contact:nth-child(2) {
+    animation: moveUp 0.5s ease-out;
+}
+.contact:nth-child(3) {
+    animation: moveUp 0.6s ease-out;
+}
+
+
+.socialMediaList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialMediaList a img:nth-child(1) {
+    width: 50px;
+}
+
+.socialMediaList a img:nth-child(2) {
+    width: 30px;
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
