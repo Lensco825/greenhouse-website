@@ -146,7 +146,6 @@ html, body {
 .plant:nth-child(8) .plantImg {
     background-image: url("/images/fuchisa.jpg");
 }
-Connect With Us
 
 .plant:nth-child(9) .plantImg {
     background-image: url("/images/starlightSunbrightFlower.jpg");
@@ -157,6 +156,18 @@ Connect With Us
 
 .plant:nth-child(11) .plantImg {
     background-image: url("/images/sufinaYellowAndPurple.jpg");
+}
+
+.plant:nth-child(12) .plantImg {
+    background-image: url("images/brightRedGuranium.webp");
+}
+
+.plant:nth-child(13) .plantImg {
+    background-image: url("images/yellowPetunia.webp");
+    background-position: 60% 10%;
+}
+.plant:nth-child(14) .plantImg {
+    background-image: url("images/whiteGuranium.jpg");
 }
 
 
@@ -209,5 +220,9 @@ footer {
     }
     .info {
         width: 100%;
+    }
+
+    .info h1 {
+        text-align: center;
     }
 }
