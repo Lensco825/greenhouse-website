@@ -156,7 +156,8 @@ a {
 .plantImg {
     background-color: var(--pakistan-green);
     height: 400px;
-
+    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-size: cover ;
 }
 
 .plantName {
@@ -165,10 +166,6 @@ a {
     font-weight: bold;
 }
 
-.plantImg {
-    background-image: url("/images/capellaCoralPetunia.jpg");
-    background-size: cover ;
-}
 
 .plant {
     font-family: Merriweather;
@@ -190,38 +187,36 @@ a {
     background-image: url("/images/capellaCoralPetunia.jpg");
 }
 
-.plant:nth-child(1):hover .plantImg {
-    background-image: url("/images/closeUpCapellaCoralPetunia.jpg");
-}
+
 
 .plant:nth-child(2) .plantImg {
-    background-image: url("/images/yellowAndPurpleCalibroca.jpg");
+    background-image: url("images/yellowAndPurpleCalibroca.jpg");
 }
 
 
 .plant:nth-child(3) .plantImg {
-    background-image: url("/images/neonPinkCalibrochoa.jpg");
+    background-image: url("images/neonPinkCalibrochoa.jpg");
 }
 
 .plant:nth-child(4) .plantImg {
-    background-image: url("/images/whiteCalibroca.jpg");
+    background-image: url("images/whiteCalibroca.jpg");
 }
 
 .plant:nth-child(5) .plantImg {
-    background-image: url("/images/colues.jfif");
+    background-image: url("images/colues.jfif");
 }
 .plant:nth-child(6) .plantImg {
-    background-image: url("/images/cuphea.jpg");
+    background-image: url("images/cuphea.jpg");
 }
 .plant:nth-child(7) .plantImg {
-    background-image: url("/images/amore.jpg");
+    background-image: url("images/amore.jpg");
 }
 .plant:nth-child(8) .plantImg {
-    background-image: url("/images/fuchisa.jpg");
+    background-image: url("images/fuchisa.jpg");
 }
 
  .starlight .plantImg {
-    background-image: url("/images/starlightSunbrightFlower.jpg"); 
+    background-image: url("images/starlightSunbrightFlower.jpg"); 
 }
 
 
@@ -260,9 +255,9 @@ footer {
 h1 {
     font-family: Merriweather;
     font-size:2.5em;
-    padding: 10%;
-    margin: auto;
-    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    text-align: left;
 }
 
 .masonryProduct {
