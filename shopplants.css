@@ -40,6 +40,46 @@ html, body {
     cursor: pointer;
 }
 
+.menuIcon {
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.mobileNav {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 4;
+    background-color: red;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 15px;
+    background-color: white;
+    backdrop-filter: blur;
+    background: rgba( 255, 255, 255, 0.6 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    justify-content: center;
+    display: none;
+}
+
+.revealNav {
+    display: flex;
+}
+
+.mobileNav a {
+    border-bottom: solid 1px;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+}
+
 .plant:hover {
     background-color: var(--earth-yellow);
 }
@@ -106,6 +146,7 @@ html, body {
 .plant:nth-child(8) .plantImg {
     background-image: url("/images/fuchisa.jpg");
 }
+Connect With Us
 
 .plant:nth-child(9) .plantImg {
     background-image: url("/images/starlightSunbrightFlower.jpg");
