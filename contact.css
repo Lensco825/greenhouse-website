@@ -8,7 +8,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--pakistan-green);
+    background-image: url('/images/greenhouseLandscape.jpg');
+    background-size: cover;
     color: white;
     font-family: Merriweather;
     height: 100%;
@@ -23,11 +24,13 @@ main {
     width: 250px;
     height: 350px;
     background-color: red;
-    padding: 50px;
+    padding: 45px;
     border-radius: 15px;
     background-image: url("images/whiteFlower.jpg");
+    background-color: green;
     background-size: cover;
     animation: moveUp 0.4s ease-out;
+    border: solid 5px;
 }
 
 .contactInfo {
