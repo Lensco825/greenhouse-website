@@ -106,7 +106,7 @@ a {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: url("/images/greenhouseMain.avif");
+    background-image: url("images/greenhouseLandscape.jpg");
     display: flex;
     align-items: flex-end;
 }
@@ -122,6 +122,7 @@ a {
     font-family: Merriweather;
     color: white;
     width: 500px;
+    max-width: 515px;
 }
 
 @media (max-width: 600px) {
@@ -230,7 +231,7 @@ a {
 }
 
 .plant:nth-child(1) .plantImg {
-    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-image: url("images/capellaCoralPetunia.jpg");
 }
 
 
@@ -273,8 +274,8 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: Merriweather;
+    
     height:30%;
-
 }
 
 .masonryImageContainer {
@@ -302,9 +303,8 @@ h1 {
     font-family: Merriweather;
     font-size:2.5em;
     padding-top: 30px;
-    margin: auto;
-    text-align: center;
-    margin-top:2%;
+    margin: 0;
+    text-align: left;
 }
 
 .masonryProduct {
@@ -317,8 +317,7 @@ h1 {
     margin-top:10px;
     box-sizing:border-box;
     margin-bottom:10px;
-    transition:1s;
-    font-family: Merriweather;
+    
 }
 
 .masonryProducts {
@@ -326,11 +325,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(750px , 1fr));   
     margin-bottom: 25px;
-}
-
-.masonryProduct:hover {
-    transition: 1s;
-    background-color:var(--earth-yellow)
 }
 
 .text {
