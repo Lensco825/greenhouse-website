@@ -23,6 +23,8 @@ main {
     width: 250px;
     height: 350px;
     background-color: red;
+    padding: 50px;
+    border-radius: 15px;
     background-image: url("images/whiteFlower.jpg");
     background-size: cover;
     animation: moveUp 0.4s ease-out;
