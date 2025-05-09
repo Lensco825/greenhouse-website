@@ -8,7 +8,8 @@
     --pakistan-green: #283618;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -66,9 +67,9 @@ html, body {
     gap: 15px;
     background-color: white;
     backdrop-filter: blur;
-    background: rgba( 255, 255, 255, 0.6 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     justify-content: center;
     display: none;
 }
@@ -102,7 +103,7 @@ html, body {
 
 .plantImg {
     background-image: url("images/capellaCoralPetunia.jpg");
-    background-size: cover ;
+    background-size: cover;
 }
 
 .plant {
@@ -113,11 +114,14 @@ html, body {
     font-style: italic;
 }
 
-.plantImg, .plantInfo, .plantName {
+.plantImg,
+.plantInfo,
+.plantName {
     width: 250px;
 }
 
-.plantInfo, .plantName {
+.plantInfo,
+.plantName {
     margin: 0;
 }
 
@@ -141,12 +145,15 @@ html, body {
 .plant:nth-child(5) .plantImg {
     background-image: url("https://media.discordapp.net/attachments/1346506354629677169/1369687907765452850/IMG_5893.jpg?ex=681cc4c4&is=681b7344&hm=8e7cb4fa2472c08a2eea3f35c053c60f307e00f0f4daa26cc0298e3ffb113b6a&=&format=webp&width=1129&height=847");
 }
+
 .plant:nth-child(6) .plantImg {
     background-image: url("images/cuphea.jpg");
 }
+
 .plant:nth-child(7) .plantImg {
     background-image: url("images/amore.jpg");
 }
+
 .plant:nth-child(8) .plantImg {
     background-image: url("images/fuchisa.jpg");
 }
@@ -154,6 +161,7 @@ html, body {
 .plant:nth-child(9) .plantImg {
     background-image: url("images/starlightSunbrightFlower.jpg");
 }
+
 .plant:nth-child(10) .plantImg {
     background-image: url("images/bamboo.jpg");
 }
@@ -170,6 +178,7 @@ html, body {
     background-image: url("images/yellowPetunia.webp");
     background-position: 60% 10%;
 }
+
 .plant:nth-child(14) .plantImg {
     background-image: url("images/whiteGuranium.jpg");
 }
@@ -222,6 +231,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .info {
         width: 100%;
     }

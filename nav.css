@@ -22,9 +22,9 @@ nav {
     background-color: white;
     top: 0;
     backdrop-filter: blur;
-    background: rgba( 255, 255, 255, 0.6 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .menuIcon {
@@ -47,9 +47,9 @@ nav {
     gap: 15px;
     background-color: white;
     backdrop-filter: blur;
-    background: rgba( 255, 255, 255, 0.6 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     justify-content: center;
     display: none;
 }
@@ -72,7 +72,7 @@ nav {
     gap: 10px;
 }
 
- nav .logo img {
+nav .logo img {
     width: 40px;
 }
 
@@ -90,7 +90,7 @@ a {
 .logo {
     padding-left: 10px;
 }
-    
+
 .logo img {
     width: 100px;
 }
@@ -135,5 +135,3 @@ nav a:hover {
         display: block;
     }
 }
-
-

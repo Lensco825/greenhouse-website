@@ -17,7 +17,7 @@ footer ul {
     list-style: none;
 }
 
- li a {
+li a {
     color: white;
 }
 
@@ -42,7 +42,7 @@ footer li:hover:not(li:nth-child(1)) {
 
 
 @media (max-width: 800px) {
-    
+
     footer {
         font-size: 0.8rem;
     }
@@ -58,7 +58,7 @@ footer li:hover:not(li:nth-child(1)) {
 }
 
 @media (max-width: 800px) {
-    
+
     footer {
         font-size: 0.6rem;
         height: 120px;

@@ -9,7 +9,8 @@
 }
 
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -29,10 +30,10 @@ nav {
     background-color: white;
     top: 0;
     backdrop-filter: blur;
-    background: rgba( 255, 255, 255, 0.6 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-} 
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
 
 .logo {
     display: flex;
@@ -41,7 +42,7 @@ nav {
     gap: 10px;
 }
 
- nav .logo img {
+nav .logo img {
     width: 40px;
 }
 
@@ -59,7 +60,7 @@ a {
 .logo {
     padding-left: 10px;
 }
-    
+
 .logo img {
     width: 100px;
 }
@@ -93,7 +94,7 @@ a {
         justify-content: center;
     }
 
-    .info  {
+    .info {
         width: 400px;
         text-align: center;
         margin: 0;
@@ -157,7 +158,7 @@ a {
     background-color: var(--pakistan-green);
     height: 400px;
     background-image: url("/images/capellaCoralPetunia.jpg");
-    background-size: cover ;
+    background-size: cover;
 }
 
 .plantName {
@@ -175,11 +176,14 @@ a {
     font-style: italic;
 }
 
-.plantImg, .plantInfo, .plantName {
+.plantImg,
+.plantInfo,
+.plantName {
     width: 250px;
 }
 
-.plantInfo, .plantName {
+.plantInfo,
+.plantName {
     margin: 0;
 }
 
@@ -205,18 +209,21 @@ a {
 .plant:nth-child(5) .plantImg {
     background-image: url("images/colues.jfif");
 }
+
 .plant:nth-child(6) .plantImg {
     background-image: url("images/cuphea.jpg");
 }
+
 .plant:nth-child(7) .plantImg {
     background-image: url("images/amore.jpg");
 }
+
 .plant:nth-child(8) .plantImg {
     background-image: url("images/fuchisa.jpg");
 }
 
- .starlight .plantImg {
-    background-image: url("images/starlightSunbrightFlower.jpg"); 
+.starlight .plantImg {
+    background-image: url("images/starlightSunbrightFlower.jpg");
 }
 
 
@@ -227,77 +234,78 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: Merriweather;
-    height:30%;
-    bottom:-55px;
-    position:relative;
+    height: 30%;
+    bottom: -55px;
+    position: relative;
 }
 
 .masonryImageContainer {
     background-color: #d7d7d7;
-    display:inline-flex;
-    width:200px;
-    border-radius:15px;
-    float:left;
+    display: inline-flex;
+    width: 200px;
+    border-radius: 15px;
+    float: left;
     aspect-ratio: 1;
     justify-content: center;
-    align-items:center;
-    align-self:center;
-    margin-left:5px;
+    align-items: center;
+    align-self: center;
+    margin-left: 5px;
 }
+
 .masonryImage {
-    object-fit:cover;
+    object-fit: cover;
     width: 95%;
-    height:95%;
-    line-height:100%;
+    height: 95%;
+    line-height: 100%;
     border-radius: 25px;
 }
 
 
 h1 {
     font-family: Merriweather;
-    font-size:2.5em;
+    font-size: 2.5em;
     padding-top: 30px;
     margin: auto;
     text-align: center;
-    margin-top:2%;
+    margin-top: 2%;
 }
 
 .masonryProduct {
     background-color: #f1f1f1;
-    display:inline-flex;
-    width:95%;
-    height:99%;
+    display: inline-flex;
+    width: 95%;
+    height: 99%;
     border-radius: 15px;
     box-shadow: #283618;
-    margin-top:10px;
-    box-sizing:border-box;
-    margin-bottom:10px;
-    transition:1s;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: 1s;
     font-family: Merriweather;
 }
 
 .masonryProducts {
-    display:grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(750px , 1fr));   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
     margin-bottom: 25px;
 }
 
 .masonryProduct:hover {
     transition: 1s;
-    background-color:var(--earth-yellow)
+    background-color: var(--earth-yellow)
 }
 
 .text {
     display: flex;
-    width:80%;
-    float:right;
-    text-wrap:wrap;
-    word-break:break-all;
-    padding:5px 15px;
+    width: 80%;
+    float: right;
+    text-wrap: wrap;
+    word-break: break-all;
+    padding: 5px 15px;
     font-size: 2em;
-    margin-top:-35px;
-    
+    margin-top: -35px;
+
 }
 
 .MTLogo img {
@@ -323,7 +331,7 @@ footer li:hover:not(li:nth-child(1)) {
 }
 
 @media (max-width: 800px) {
-    
+
     footer {
         font-size: 0.8rem;
     }
@@ -341,7 +349,7 @@ footer li:hover:not(li:nth-child(1)) {
 
 
 @media (max-width: 800px) {
-    
+
     footer {
         font-size: 0.6rem;
         height: 120px;
@@ -357,61 +365,5 @@ footer li:hover:not(li:nth-child(1)) {
 }
 
 b {
-    font-size:1.5em;
+    font-size: 1.5em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
