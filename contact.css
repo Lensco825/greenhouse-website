@@ -9,12 +9,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url('images/greenhouseLandscape.jpg');
-    background-size: cover;
     color: white;
     font-family: Merriweather;
     height: 100%;
     flex-wrap: wrap-reverse;
+    background-image: url("images/greenhouseLandscape.jpg");
+    background-size: cover;
 }
 
 .contact a {
