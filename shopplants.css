@@ -15,6 +15,10 @@ html, body {
     background-color: var(--cornsilk);
 }
 
+.plantImg {
+    border-radius: 10px;
+}
+
 
 
 .plantGrid {
