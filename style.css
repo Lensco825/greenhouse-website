@@ -137,6 +137,7 @@ a {
         text-align: center;
         margin: 0;
         padding: 10px;
+        padding-bottom: 25px;
         margin-right: 34px;
     }
 
@@ -149,7 +150,7 @@ a {
     }
 }
 
-.info button {
+.info .shopBtn {
     background: transparent;
     border: solid 1px;
     border-radius: 20px;
@@ -159,7 +160,7 @@ a {
     transition: 0.3s;
 }
 
-.info button:hover {
+.info .shopBtn:hover {
     background-color: var(--cornsilk);
     color: #283618;
 }
