@@ -15,6 +15,10 @@ html, body {
     background-color: var(--cornsilk);
 }
 
+.plantImg {
+    border-radius: 10px;
+}
+
 
 
 .plantGrid {
@@ -97,7 +101,7 @@ html, body {
 }
 
 .plantImg {
-    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-image: url("images/capellaCoralPetunia.jpg");
     background-size: cover ;
 }
 
@@ -118,42 +122,58 @@ html, body {
 }
 
 .plant:nth-child(1) .plantImg {
-    background-image: url("/images/capellaCoralPetunia.jpg");
+    background-image: url("images/capellaCoralPetunia.jpg");
 }
 
 .plant:nth-child(2) .plantImg {
-    background-image: url("/images/yellowAndPurpleCalibroca.jpg");
+    background-image: url("images/yellowAndPurpleCalibroca.jpg");
 }
 
 
 .plant:nth-child(3) .plantImg {
-    background-image: url("/images/neonPinkCalibrochoa.jpg");
+    background-image: url("images/neonPinkCalibrochoa.jpg");
 }
 
 .plant:nth-child(4) .plantImg {
-    background-image: url("/images/whiteCalibroca.jpg");
+    background-image: url("images/whiteCalibroca.jpg");
 }
 
 .plant:nth-child(5) .plantImg {
-    background-image: url("/images/colues.jfif");
+    background-image: url("https://media.discordapp.net/attachments/1346506354629677169/1369687907765452850/IMG_5893.jpg?ex=681cc4c4&is=681b7344&hm=8e7cb4fa2472c08a2eea3f35c053c60f307e00f0f4daa26cc0298e3ffb113b6a&=&format=webp&width=1129&height=847");
 }
 .plant:nth-child(6) .plantImg {
-    background-image: url("/images/cuphea.jpg");
+    background-image: url("images/cuphea.jpg");
 }
 .plant:nth-child(7) .plantImg {
-    background-image: url("/images/amore.jpg");
+    background-image: url("images/amore.jpg");
 }
 .plant:nth-child(8) .plantImg {
-    background-image: url("/images/fuchisa.jpg");
+    background-image: url("images/fuchisa.jpg");
 }
-Connect With Us
 
 .plant:nth-child(9) .plantImg {
-    background-image: url("/images/starlightSunbrightFlower.jpg");
+    background-image: url("images/starlightSunbrightFlower.jpg");
 }
 .plant:nth-child(10) .plantImg {
-    background-image: url("/images/bamboo.jpg");
+    background-image: url("images/bamboo.jpg");
 }
+
+.plant:nth-child(11) .plantImg {
+    background-image: url("images/sufinaYellowAndPurple.jpg");
+}
+
+.plant:nth-child(12) .plantImg {
+    background-image: url("images/brightRedGuranium.webp");
+}
+
+.plant:nth-child(13) .plantImg {
+    background-image: url("images/yellowPetunia.webp");
+    background-position: 60% 10%;
+}
+.plant:nth-child(14) .plantImg {
+    background-image: url("images/whiteGuranium.jpg");
+}
+
 
 
 footer {
@@ -204,5 +224,9 @@ footer {
     }
     .info {
         width: 100%;
+    }
+
+    .info h1 {
+        text-align: center;
     }
 }
